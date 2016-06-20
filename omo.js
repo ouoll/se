@@ -1,9 +1,6 @@
 <script>
 $(function(){
 
-
-
-
 $(document).on('click','.search_result_each_box',function(){
     var this_box = $(this)[0];
     var result_box_id = $(this_box).attr("id");
